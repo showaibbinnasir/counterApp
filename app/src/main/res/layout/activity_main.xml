@@ -25,6 +25,7 @@
             android:textColor="#FFFFFF"
             />
         <TextView
+            android:id="@+id/counterDisplay"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:text="00"
@@ -34,6 +35,7 @@
             android:textStyle="bold"
             />
         <Button
+            android:id="@+id/increaseBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Increase"
@@ -43,6 +45,7 @@
             android:backgroundTint="@color/black"
             />
         <Button
+            android:id="@+id/decreaseBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Decrease"
@@ -52,6 +55,7 @@
             android:backgroundTint="@color/black"
             />
         <Button
+            android:id="@+id/resetBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Reset"
