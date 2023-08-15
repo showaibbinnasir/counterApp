@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -44,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 count = 0;
                 counterDisplay.setText(""+count);
+                Toast.makeText(MainActivity.this, "Value reset successful", Toast.LENGTH_LONG).show();
             }
         });
 
